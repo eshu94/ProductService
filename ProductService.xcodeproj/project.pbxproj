@@ -9,21 +9,27 @@
 /* Begin PBXBuildFile section */
 		6F743256266CB72800B7EF39 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F743255266CB72800B7EF39 /* AppDelegate.swift */; };
 		6F743258266CB72800B7EF39 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F743257266CB72800B7EF39 /* SceneDelegate.swift */; };
-		6F74325A266CB72800B7EF39 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F743259266CB72800B7EF39 /* ViewController.swift */; };
 		6F74325D266CB72800B7EF39 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6F74325B266CB72800B7EF39 /* Main.storyboard */; };
 		6F74325F266CB72B00B7EF39 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6F74325E266CB72B00B7EF39 /* Assets.xcassets */; };
 		6F743262266CB72B00B7EF39 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6F743260266CB72B00B7EF39 /* LaunchScreen.storyboard */; };
+		6F74326F266CB7CF00B7EF39 /* ServiceCustomeTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F74326E266CB7CF00B7EF39 /* ServiceCustomeTableViewCell.swift */; };
+		6F743272266CB80000B7EF39 /* ProductServiceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F743271266CB80000B7EF39 /* ProductServiceViewController.swift */; };
+		6F743275266CB83700B7EF39 /* ProductServiceViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F743274266CB83700B7EF39 /* ProductServiceViewModel.swift */; };
+		6F743278266CB87E00B7EF39 /* ProductServiceModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F743277266CB87E00B7EF39 /* ProductServiceModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		6F743252266CB72800B7EF39 /* ProductService.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ProductService.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6F743255266CB72800B7EF39 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6F743257266CB72800B7EF39 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		6F743259266CB72800B7EF39 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		6F74325C266CB72800B7EF39 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		6F74325E266CB72B00B7EF39 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6F743261266CB72B00B7EF39 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6F743263266CB72B00B7EF39 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6F74326E266CB7CF00B7EF39 /* ServiceCustomeTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServiceCustomeTableViewCell.swift; sourceTree = "<group>"; };
+		6F743271266CB80000B7EF39 /* ProductServiceViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductServiceViewController.swift; sourceTree = "<group>"; };
+		6F743274266CB83700B7EF39 /* ProductServiceViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductServiceViewModel.swift; sourceTree = "<group>"; };
+		6F743277266CB87E00B7EF39 /* ProductServiceModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductServiceModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +62,42 @@
 		6F743254266CB72800B7EF39 /* ProductService */ = {
 			isa = PBXGroup;
 			children = (
+				6F74326C266CB75B00B7EF39 /* Models */,
+				6F74326B266CB75100B7EF39 /* ViewModels */,
+				6F74326A266CB73800B7EF39 /* Views */,
 				6F743255266CB72800B7EF39 /* AppDelegate.swift */,
 				6F743257266CB72800B7EF39 /* SceneDelegate.swift */,
-				6F743259266CB72800B7EF39 /* ViewController.swift */,
-				6F74325B266CB72800B7EF39 /* Main.storyboard */,
 				6F74325E266CB72B00B7EF39 /* Assets.xcassets */,
-				6F743260266CB72B00B7EF39 /* LaunchScreen.storyboard */,
 				6F743263266CB72B00B7EF39 /* Info.plist */,
 			);
 			path = ProductService;
+			sourceTree = "<group>";
+		};
+		6F74326A266CB73800B7EF39 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				6F743260266CB72B00B7EF39 /* LaunchScreen.storyboard */,
+				6F74325B266CB72800B7EF39 /* Main.storyboard */,
+				6F74326E266CB7CF00B7EF39 /* ServiceCustomeTableViewCell.swift */,
+				6F743271266CB80000B7EF39 /* ProductServiceViewController.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		6F74326B266CB75100B7EF39 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				6F743274266CB83700B7EF39 /* ProductServiceViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		6F74326C266CB75B00B7EF39 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				6F743277266CB87E00B7EF39 /* ProductServiceModel.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,9 +170,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6F74325A266CB72800B7EF39 /* ViewController.swift in Sources */,
 				6F743256266CB72800B7EF39 /* AppDelegate.swift in Sources */,
+				6F743275266CB83700B7EF39 /* ProductServiceViewModel.swift in Sources */,
+				6F74326F266CB7CF00B7EF39 /* ServiceCustomeTableViewCell.swift in Sources */,
+				6F743272266CB80000B7EF39 /* ProductServiceViewController.swift in Sources */,
 				6F743258266CB72800B7EF39 /* SceneDelegate.swift in Sources */,
+				6F743278266CB87E00B7EF39 /* ProductServiceModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
