@@ -12,7 +12,7 @@
         <!--Select Service-->
         <scene sceneID="4BQ-CP-lbq">
             <objects>
-                <viewController id="764-CI-Mmc" customClass="ProductServiceViewController" customModule="Product_Service" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="764-CI-Mmc" customClass="ProductServiceViewController" customModule="ProductService" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="m8r-5r-IF6">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="808"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -63,7 +63,7 @@
                                 <rect key="frame" x="0.0" y="277" width="414" height="412"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                 <prototypes>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="serviceIdentifier" rowHeight="98" id="iwr-Dw-3VI" customClass="ServiceCustomeTableViewCell" customModule="Product_Service" customModuleProvider="target">
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="serviceIdentifier" rowHeight="98" id="iwr-Dw-3VI" customClass="ServiceCustomeTableViewCell" customModule="ProductService" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="28" width="414" height="98"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="iwr-Dw-3VI" id="ULN-qB-TK4">
